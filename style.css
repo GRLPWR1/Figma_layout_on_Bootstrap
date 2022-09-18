@@ -1,9 +1,35 @@
 div, nav {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 body {
+    font-family: Old Standard TT;
     background-color: #181511;
 }
 h1 {
     color: #FFAE2B;
+}
+.nav .active, .text_about1 {
+    color: #FFAE2B;
+}
+.nav-link {
+    color: #ACA592;
+}
+.btn-dark {
+    background-color: #181511;
+    border: 1px solid #FFAE2B;
+    color: #FFAE2B;
+}
+main .col{
+    height: 85vh;
+    background-image: url(./images/main_img.png);
+    text-align: center;
+}
+.text_about2 {
+    color: #FFFFFF;
+    font-size: 5rem;
+}
+.btn-warning {
+    background-color: #FFAE2B;
+    color: #181511;
+    border-radius: 0%;
 }
